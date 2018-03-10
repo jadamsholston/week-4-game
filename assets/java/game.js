@@ -1,5 +1,5 @@
 
-document.addEventListener("onpageshow", function() {
+document.addEventListener("click", function() {
     // use random number ranges as specified in instructions and provide limits to make the game winable
     var gameMin = 15;
     var gameMax = 100;
@@ -80,6 +80,6 @@ document.addEventListener("onpageshow", function() {
     $(".gem").on("click", gemClick);
 
     // start game on page load
-    this.work();
+    work();
 
 });
