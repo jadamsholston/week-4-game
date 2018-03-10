@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    line-height: 150%;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.pageheader {
+    background-color: rgba(250, 251, 252, 0.2);
+    color: white;
+    margin: 0px;
+    height: 100px;
+    padding-top: 15px;
+}
+
+.h1 {
+    font-size: 26px;
+}
+
+body {
+    background: url("../images/beach.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ 
+}
+
+.main_divs {
+    background-color: transparent;
+}
+
+.help_div {
+    background-color:  rgba(228, 228, 228, 0.116);
+    color: rgb(0, 140, 255);
+        -webkit-font-smoothing: antialiased;
+    margin: 10px;
+    padding: 15px 0px;
+}
+
+.target_div {
+    background-color: rgba(250, 251, 252, 0.2);
+    color: rgb(0, 140, 255);
+    font-size: 60px;
+    width: 200px;
+    height: 100px;
+    padding-top: 15px;
+    padding-left: 5px;
+    margin: 30px auto;
+    float: center;
+}
+
+.gems_div {
+    height: 100px;
+    width: 500px;
+    margin: 10px auto;
+}
+
+.score_div {
+    background-color:  rgba(250, 251, 252, 0.2);
+    color:  rgb(0, 140, 255);
+    font-size: 40px;
+    width: auto;
+    height: 100px;
+    padding-top: 5px;
+    margin-top: 30px;
+}
+
+.tally_div {
+    margin: 300px auto;
+    width: 300px;
+    height: 150px;
+    padding-top: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.gem {
+    width: 100px;
+    height: 100px;
+}
+
+.w {
+    color:rgba(255, 255, 255, 0.801);
+    text-shadow: #000 0px 0px 20px;
+        -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+}
+
+.l {
+    color:rgba(255, 255, 255, 0.801);
+    text-shadow: #000 0px 0px 20px;
+        -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+}
+
+.m {
+    color: rgba(255, 255, 255, 0.801);
+text-shadow: #000 0px 0px 20px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    margin-left: 50px;
+}
